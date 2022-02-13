@@ -15,7 +15,7 @@ const Pokemon = () => {
         //pokemonapiからデータを取得する処理を記述
         const fetchData = async () =>{
             const response = await fetch(
-                "https://pokeapi.co/api/v2/pokemon?limit=151"
+                "https://pokeapi.co/api/v2/pokemon?limit=898"
             );
 
             //json形式のデータにして扱えるように
