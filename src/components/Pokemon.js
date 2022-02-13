@@ -48,7 +48,7 @@ const Pokemon = () => {
             <h1>Pokemon図鑑</h1>
             <div className='viewBox'>
                 {pokemon.map((item, index) => (
-                <View pokemonItem={index} handleClick={handleClick}/> 
+                <View key={index} pokemonItem={index} handleClick={handleClick}/> 
                 ))}
             </div>
             <Item
